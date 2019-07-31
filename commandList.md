@@ -16,6 +16,12 @@
   git reset HEAD <file>       | 在暂存区撤销修改                        
  删除文件                     |                                         
   git rm <file>               | 从版本库中删除该文件                    
+ 添加远程库                                                 |                                
+ git remote add origin git@server-name:path/repo-name.git | 关联一个远程库                 
+ git push -u origin master                                | 第一次推送master分支的所有内容 
+ git push origin master                                   | 推送最新修改                   
+ 从远程库克隆                                               |                                
+ git clone git@server-name:path/repo-name.git             | 给定仓库地址克隆仓库           
 
 
 
