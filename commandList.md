@@ -26,6 +26,7 @@
 
 ## 分支管理
  command                                                    | description                            
+-|-
  创建与合并分支                                             |                                        
   git branch                                                | 查看分支                               
   git branch <name>                                         | 创建分支                               
