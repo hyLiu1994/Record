@@ -1,5 +1,7 @@
 # Record
- This a record file.
+
+This a record file.
+
 ## markdown 
   markdown is very useful.
   *TEST*
@@ -7,6 +9,7 @@
 ## this is a branch test.
 
 A B
+
 
 there is a error
 
@@ -16,8 +19,9 @@ add 刘恒宇 again
 
 add 张昀 again
 
+邵靓靓
 
-刘可可可可可可可可可
+刘可可刘可可刘可可
 
 
 
