@@ -35,7 +35,7 @@
   git checkout <name>                                       | 切换分支                               
   git checkout -b <name>                                    | 创建+切换分支                          
   git merge <name>                                          | 合并某分支到当前分支                   
-  git merge --no-ff -m "xxx" <name>                         | 强制禁用 ~Fast forward~ 合并           
+  git merge --no-ff -m "xxx" <name>                         | 强制禁用  Fast forward  合并           
   git log --graph --pretty=oneline --abbrev-commit          | 查看分支合并图                         
  Bug 分支                                                   |                                        
   git stash                                                 | 将当前暂存区内容保持现场               
@@ -50,4 +50,16 @@
   git checkout -b branch-name origin/branch-name            | 本地创建和远程分支对应的分支           
   git branch --set-upstream branch-name origin/branch-name  | 建立本地分支和远程分支的关联           
   git rebase                                                | 将本地未push的分支提交历史整理成直线   
+
+
+# tag 指令
+ command                                  | description                                       
+-|-
+  git tag <tagname>                       | 新建一个标签，默认为HEAD，也可以指定一个commit id 
+  git tag -a <tagname> -m "blablabla..."  | 可以指定标签信息                                  
+  git tag                                 | 查看所有标签                                      
+  git push origin <tagname>               | 推送一个本地标签                                  
+  git push origin --tags                  | 推送全部未推送过的本地标签                        
+  git tag -d <tagname>                    | 删除一个本地标签                                  
+  git push origin :refs/tags/<tagname>    | 删除一个远程标签                                  
 
