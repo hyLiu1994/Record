@@ -12,12 +12,9 @@
   git reflog                  | 查看命令历史                            
   git reset --hard commit_id  | 在版本的历史之间穿梭                    
  撤销修改                     |                                         
--|-
   git checkout -- <file>      | 在工作区撤销修改                        
   git reset HEAD <file>       | 在暂存区撤销修改                        
--|-
  删除文件                     |                                         
--|-
   git rm <file>               | 从版本库中删除该文件                    
 
 
